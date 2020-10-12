@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/conformTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conformation."
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/conformTextView"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/nameTextView"/>
+
+    <TextView
+        android:id="@+id/guessNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/dateTextView"/>
+
+    <TextView
+        android:id="@+id/packageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/guessNumberTextView"/>
+
+    <TextView
+        android:id="@+id/ThanksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks for selecting us to celebrate your kid's birthday!"
+        android:textSize="30sp"
+        android:layout_below="@+id/packageTextView"/>
+
+    <TextView
+        android:id="@+id/contactTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact phone number (415)111-2222"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ThanksTextView"/>
+
+
+
+</RelativeLayout>
